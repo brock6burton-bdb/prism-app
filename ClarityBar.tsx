@@ -1,0 +1,1 @@
+export function ClarityBar({step,total}:{step:number;total:number}){const p=Math.round(step/total*100);return <div className="clarity"><div><span>Building clarity</span><strong>{p}%</strong></div><i><b style={{width:`${p}%`}}/></i></div>}
