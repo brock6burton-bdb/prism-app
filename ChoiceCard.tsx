@@ -1,1 +1,0 @@
-export function ChoiceCard({title,description,selected,onClick}:{title:string;description:string;selected:boolean;onClick:()=>void}){return <button type="button" className={`choiceCard ${selected?"selected":""}`} onClick={onClick} aria-pressed={selected}><span className="dot"/><span><strong>{title}</strong><small>{description}</small></span></button>}
